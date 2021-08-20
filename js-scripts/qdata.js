@@ -10,7 +10,7 @@ const quizData = [
     c: `Been in a shark cage off Guadalupe Island, Mexico.`,
     d: `Flown a fully armed AH-64 Apache helicopter.`,
     e: `Has won a bull riding competition.`,
-    correct: `b`,
+    correct: `x`,
   },
   {
     num: '2',
@@ -20,7 +20,7 @@ const quizData = [
     c: `A US Army Helicopter Pilot.`,
     d: `A FORTRAN Programmer.`,
     e: `An NFL Defensive Coordinator.`,
-    correct: `a`,
+    correct: `x`,
   },
   {
     num: '3',
@@ -30,7 +30,7 @@ const quizData = [
     c: `An Leading Activist for the Feminist Movement.`,
     d: `A Playboy Bunny.`,
     e: `A Botanist.`,
-    correct: `d`,
+    correct: `x`,
   },
   {
     num: '4',
@@ -40,7 +40,7 @@ const quizData = [
     c: `He worked on the NFL's investigation of the N.E. Patriot's Deflategate Scandal.`,
     d: `He had acting roles in several major motion pictures and prime-time TV shows.`,
     e: `He was a US Olympic Athelete of the 2012 Summer Games.`,
-    correct: `d`,
+    correct: `x`,
   },
   {
     num: '5',
@@ -50,7 +50,7 @@ const quizData = [
     c: `A certified Paralegal.`,
     d: `A certified Phlebotomist.`,
     e: `A certified Defensive Driver (assassination & kidnapping scenerios).`,
-    correct: `e`,
+    correct: `x`,
   },
   {
     num: '6',
@@ -60,7 +60,7 @@ const quizData = [
     c: `2001`,
     d: `2021`,
     e: `Never, he hired someone to build this site.`,
-    correct: `c`,
+    correct: `x`,
   },
   {
     num: '7',
@@ -70,7 +70,7 @@ const quizData = [
     c: `He was an Olympic athelete.`,
     d: `He was a professional Rodeo Clown.`,
     e: `None of the above.`,
-    correct: `a`,
+    correct: `x`,
   },
   {
     num: '8',
@@ -80,7 +80,7 @@ const quizData = [
     c: `A Kinkajou.`,
     d: `A Chimpanzee.`,
     e: `A tiger.`,
-    correct: `c`,
+    correct: `x`,
   },
   {
     num: '9',
@@ -90,7 +90,7 @@ const quizData = [
     c: `He has been caught in a major Tornado.`,
     d: `He has been caught in a major Tsunami.`,
     e: `None of the above.`,
-    correct: `a`,
+    correct: `x`,
   },
   {
     num: '10',
@@ -100,7 +100,7 @@ const quizData = [
     c: `Pose for a record album that went gold.`,
     d: `Be a bodygaurd for Tom Selleck.`,
     e: `All of the above.`,
-    correct: `e`,
+    correct: `x`,
   },
   {
     num: '11',
@@ -110,7 +110,7 @@ const quizData = [
     c: `He built & programmed a full standing Rasberry Pi arcade machine.`,
     d: `Rooted his cell phone a built a custom operating system.`,
     e: `Created several plugins for WordPress.`,
-    correct: `b`,
+    correct: `x`,
   },
   {
     num: '12',
@@ -120,7 +120,7 @@ const quizData = [
     c: `He fell overboard on a cruise ship and was rescued 2 days later.`,
     d: `He played guitar for a band that opened for Metallica.`,
     e: `All of the above.`,
-    correct: `b`,
+    correct: `x`,
   },
   {
     num: '13',
@@ -130,7 +130,7 @@ const quizData = [
     c: `He has experimented with magnetic self-propelled generators.`,
     d: `He has been on archeological digs.`,
     e: `He is a competative bird caller.`,
-    correct: `b`,
+    correct: `x`,
   },
   {
     num: '14',
@@ -140,7 +140,7 @@ const quizData = [
     c: `He has met four U.S. Presidents.`,
     d: `He has returned a lost briefcase with $36,000 to its rightful owner.`,
     e: `All of the above.`,
-    correct: `e`,
+    correct: `x`,
   },
   {
     num: '15',
@@ -150,7 +150,7 @@ const quizData = [
     c: `12`,
     d: `16`,
     e: `Still haven't found a job to this day.`,
-    correct: `a`,
+    correct: `x`,
   },
   {
     num: '16',
@@ -160,7 +160,7 @@ const quizData = [
     c: `He once had dinner with Steve Jobs.`,
     d: `He once had dinner with Jeffrey Dahmer.`,
     e: `He once had dinner with Colin Kaepernick.`,
-    correct: `a`,
+    correct: `x`,
   },
   {
     num: '17',
@@ -170,7 +170,7 @@ const quizData = [
     c: `10,000`,
     d: `50,000`,
     e: `Not more than 10, he has glossophobia.`,
-    correct: `b`,
+    correct: `x`,
   },
   {
     num: '18',
@@ -180,7 +180,7 @@ const quizData = [
     c: `CSS3`,
     d: `PHP`,
     e: `None of the above. He got all A's.`,
-    correct: `d`,
+    correct: `x`,
   },
   {
     num: '19',
@@ -190,7 +190,7 @@ const quizData = [
     c: `Apple Watch Series 6`,
     d: `Oculus Rift S`,
     e: `Israeli Army Night Vision Goggles`,
-    correct: `c`,
+    correct: `x`,
   },
   {
     num: '20',
@@ -200,7 +200,7 @@ const quizData = [
     c: `Bowling`,
     d: `Basketball`,
     e: `Golf`,
-    correct: `d`,
+    correct: `x`,
   },
 ];
 

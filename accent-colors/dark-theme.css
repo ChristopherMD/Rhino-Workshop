@@ -1,0 +1,32 @@
+:root {
+  --bg-color-main: black;
+  --bg-color-accent: #2d2c25;
+  --text-color: #f5f5f5;
+  --shadow-color: rgba(255, 255, 255, 0.2);
+}
+.menu-toggler {
+  border: 1px solid black;
+  border-left: none;
+  border-top: none;
+  z-index: 10;
+  left: 9.9rem;
+}
+.menu {
+  border: 1px solid black;
+  border-left: none;
+  border-top: none;
+  z-index: 9;
+}
+.theme-toggler {
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+  z-index: 10;
+  right: 9.9rem;
+}
+.theme {
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+  z-index: 9;
+}

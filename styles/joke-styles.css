@@ -1,0 +1,78 @@
+/* Coded by ChristopherMD - 2020 */
+
+.jokes-container {
+  margin: 0;
+  background-color: var(--bg-color-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.joke-container {
+  margin: 8rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color-accent);
+  border-radius: 10px;
+  border: 2px solid var(--accent-color);
+  box-shadow: inset 0 0 10px 5px var(--shadow-color);
+  max-width: 500px;
+  padding: 0 2rem 2rem 2rem;
+}
+.joke-image {
+  margin: 0 auto;
+  margin-top: -3.25rem;
+}
+.joke-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--accent-color);
+  box-shadow: 0 0 5px 5px var(--shadow-color);
+}
+button {
+  margin-bottom: 20px;
+  border: 3px solid black;
+  background: var(--accent-color);
+  border-radius: 10px;
+  font-size: 1.5em;
+  font-family: 'Jura', sans-serif;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.joke {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.joke h1 {
+  margin-bottom: 1rem;
+}
+.bubble {
+  display: inline-block;
+  position: relative;
+  padding: 30px 40px;
+  border-radius: 10px;
+  border: 3px solid black;
+  background: white;
+  margin-bottom: 60px;
+  color: black;
+}
+.bubble:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  height: 50px;
+  width: 90px;
+  border-radius: 0 0 100%;
+  box-shadow: -2px -2px 0 0 #000 inset, -23px 0 0 0 #fff inset,
+    -25px -2px 0 0 #000 inset;
+}
+.joke-container p {
+  border-top: 1px solid var(--accent-color);
+  padding-top: 1rem;
+}

@@ -1,0 +1,108 @@
+/* Coded by ChristopherMD - 2020 */
+
+.theme-toggler {
+  margin-top: 2.75rem;
+  position: absolute;
+  font-size: 1.75em;
+  width: 3rem;
+  height: 2.75rem;
+  top: 0;
+  right: 10rem;
+  text-align: center;
+  padding-top: 0.3rem;
+  line-height: 1.25em;
+  cursor: pointer;
+  border-radius: 0 0 0 20px;
+  background-color: var(--bg-color-accent);
+  box-shadow: -8px 10px 10px var(--shadow-color);
+  z-index: 11;
+  -ms-transform: translateX(10rem);
+  -moz-transform: translateX(10rem);
+  -webkit-transform: translateX(10rem);
+  transform: translateX(10rem);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.theme-toggler.open {
+  -ms-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+.theme-icon {
+  color: var(--text-color);
+}
+.theme-icon {
+  color: var(--text-color);
+}
+.theme-icon:hover,
+.theme-icon:focus {
+  color: var(--accent-color);
+}
+.theme {
+  margin-top: 2.75rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+  top: 0;
+  right: 0;
+  border-radius: 0 0 0 20px;
+  background-color: var(--bg-color-accent);
+  z-index: 10;
+  padding: 1rem;
+  box-shadow: -8px 10px 10px var(--shadow-color);
+  -ms-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.theme.open {
+  -ms-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+.theme-selections {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.color-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.unordered-color-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.unordered-color-list li {
+  margin: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.unordered-color-list li a {
+  width: 30px;
+  height: 30px;
+  border-radius: 15%;
+  box-shadow: inset 5px 8px 10px rgba(0, 0, 0, 0.5),
+    inset -8px -5px 10px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+/* Responsive */
+@media only screen and (min-width: 850px) {
+  .theme,
+  .theme-toggler {
+    margin-top: 0;
+  }
+}

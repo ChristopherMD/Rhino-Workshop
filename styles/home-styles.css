@@ -1,0 +1,135 @@
+/* Coded by ChristopherMD - 2020 */
+
+/* Styles for Home Page */
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  background-color: var(--bg-color-main);
+}
+#home-icon {
+  color: var(--accent-color);
+}
+#home-image {
+  background-image: url('../images/home-bg-light.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.home-bg {
+  margin-top: 2rem;
+}
+.home-bg .content {
+  margin: 2rem;
+  width: 70%;
+  padding-top: 2rem;
+}
+
+.content h1 {
+  border-bottom: 2px solid var(--accent-color);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.intro {
+  margin-bottom: 1rem;
+}
+p {
+  line-height: 1.75em;
+}
+.content img {
+  margin: 1rem 0;
+  width: 10rem;
+}
+.home-social-media i:hover,
+.home-social-media i:focus {
+  color: var(--text-color);
+}
+.home-social-media a {
+  color: var(--accent-color);
+  margin: 1rem 0.25rem;
+  font-size: 2rem;
+}
+.home-section {
+  margin-top: 1rem;
+  border-top: 2px solid var(--accent-color);
+  padding-top: 1rem;
+}
+.quiz-btn {
+  margin: 1rem 0;
+  margin-bottom: 1.5rem;
+  width: 7rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid var(--accent-color);
+  background-color: var(--bg-color-accent);
+  box-shadow: inset 5px 8px 10px rgba(0, 0, 0, 0.5),
+    inset -8px -5px 10px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.btn {
+  padding-top: 0.5rem;
+  text-align: center;
+  background: none;
+  border: none;
+  border-radius: 10px;
+  color: var(--accent-color);
+  height: 100%;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--text-color);
+  background-color: var(--accent-color);
+}
+.quiz-tag {
+  margin-bottom: 0.5rem;
+}
+.home-section h3 {
+  margin-left: 1rem;
+}
+.skills {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.no-margin {
+  margin: 0;
+}
+.knowledge-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.knowledge {
+  margin-right: 3rem;
+}
+.skills-list {
+  margin-top: 1rem;
+}
+.school {
+  margin-bottom: 2rem;
+}
+.school h3 {
+  margin-top: 0.5rem;
+}
+@media only screen and (max-width: 850px) {
+  .home-bg .content {
+    width: 80%;
+  }
+  .knowledge-lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+/* Responsive */
+@media only screen and (min-width: 850px) {
+  .home-bg {
+    margin-top: 2rem;
+  }
+}

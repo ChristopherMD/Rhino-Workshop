@@ -1,0 +1,125 @@
+/* Coded by ChristopherMD - 2020 */
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap');
+
+:root {
+  --bg-color-main: white;
+  --bg-color-accent: #f5f5f5;
+  --text-color: #2d2c25;
+  --accent-color: red;
+  --shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color-main);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:link,
+a:visited {
+  color: var(--text-color);
+}
+.head {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.title {
+  text-align: center;
+  width: 100%;
+  height: 2.75rem;
+  background-color: var(--bg-color-accent);
+  box-shadow: inset 8px 0 10px var(--shadow-color);
+  z-index: 5;
+}
+.title span {
+  color: var(--accent-color);
+}
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--bg-color-accent);
+  color: var(--text-color);
+}
+.footer-links {
+  text-align: center;
+  font-size: 1em;
+  padding: 0 2rem;
+}
+#foot-menu {
+  padding-top: 1rem;
+}
+#foot-menu a {
+  padding: 0 0.5rem;
+}
+#foot-menu a:hover,
+#foot-menu a:focus {
+  color: var(--accent-color);
+  font-weight: 400;
+}
+.footer-links i {
+  color: var(--accent-color);
+  margin: 1rem 1rem;
+  font-size: 2rem;
+}
+.footer-links i:hover,
+.footer-links i:focus {
+  color: var(--text-color);
+}
+.copyright {
+  padding-bottom: 1rem;
+  margin: 0;
+  text-align: center;
+  font-size: 0.75em;
+}
+/* TYPOGRAPHY */
+label,
+.title,
+.foot,
+.theme-labels,
+h1,
+h1 span,
+h2,
+h3,
+h5 {
+  font-family: 'Jura', sans-serif;
+}
+h1 {
+  font-size: 2em;
+  font-weight: 400;
+}
+h1 span {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+h3 {
+  font-size: 1.25em;
+  letter-spacing: -0.05rem;
+}
+h5 {
+  font-size: 1em;
+  width: 100%;
+  border-top: 1px solid var(--text-color);
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+}
+.theme-labels {
+  font-weight: 700;
+}
+.page-down {
+  padding-top: 3rem;
+  text-align: center;
+}
